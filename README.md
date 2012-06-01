@@ -20,3 +20,10 @@ Remember to customize a PACKAGES_LIST variable in fabfile, for your personal
 use. These are the packages the script will install into the virtualenv.
 
 A parte from this, if you have some ideas, tell me immediately!!!! :)
+
+Credits
+=======
+
+Special thanks to the authors of this resources:
+
+https://gist.github.com/2818562
