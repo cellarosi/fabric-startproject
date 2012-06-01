@@ -59,7 +59,7 @@ def create_django_project(name):
 
 
 def update_settings(name):
-    with open('%s/src/%s/settings.py' % (name, name), 'r') as base_settings:
+    with open(os.path.join(name, SOURCE_DIRECTORY_NAME, name, 'settings.py'), 'r') as base_settings:
         content = base_settings.read().replace('%%%project_name%%%', name)
         with open(os.path.join(name, SOURCE_DIRECTORY_NAME, name, 'settings.py'), 'w') as settings:
             settings.write(content)
